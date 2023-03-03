@@ -1,0 +1,1 @@
+# codecool_python_ask_mate_3
