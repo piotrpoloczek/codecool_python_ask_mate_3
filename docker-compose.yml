@@ -19,7 +19,7 @@ services:
     environment:
       - POSTGRES_USER=hello_flask
       - POSTGRES_PASSWORD=hello_flask
-      - POSTGRES_DB=postgres
+      - POSTGRES_DB=hello_flask
 
 volumes:
   postgres_data:
