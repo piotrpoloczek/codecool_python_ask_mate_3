@@ -3,7 +3,7 @@ from typing import List, Dict
 from psycopg2 import sql
 from psycopg2.extras import RealDictCursor
 
-from project.data.sample_data.database_common import connection_handler
+from project.data.data_manager.database_common import connection_handler
 
 
 def read_sql_file(filename):
