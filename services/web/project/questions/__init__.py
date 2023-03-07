@@ -5,7 +5,7 @@ questions_bp = Blueprint(
     __name__,
     static_folder="static",
     static_url_path="/questions/static",
-    template_folder="templates/questions",
+    template_folder="templates",
     url_prefix="/questions",
 )
 
